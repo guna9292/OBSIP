@@ -1,0 +1,63 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url(./celsius.jpg);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #3498db;
+}
+
+.converter {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+label, select, input, button {
+    margin: 10px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #2ecc71;
+}
+
+
+
+.error {
+    color: #e74c3c;
+}
+
+.conversion-unit {
+    margin: 10px;
+}
